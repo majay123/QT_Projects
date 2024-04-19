@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
-        "avcodec"
+        "avcodec",
+        "AVERROR",
+        "avformat",
+        "AVMEDIA",
+        "codecpar",
+        "muxer",
+        "ofmt"
     ]
 }
