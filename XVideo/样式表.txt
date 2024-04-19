@@ -1,0 +1,50 @@
+QPushButton:hover
+ { 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(120, 120, 120, 255), stop:0.495 rgba(39, 39, 39, 255), stop:0.505 rgba(39,39, 39, 255), stop:1 rgba(120, 120,120, 255));
+ border: none;
+border-radius:5px;
+color: rgb(255, 255, 255);
+font: 75 12pt "黑体";
+ }
+QPushButton:!hover
+ { 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(39, 39, 39, 255), stop:0.495 rgba(120, 120, 120, 255), stop:0.505 rgba(120,120, 120, 255), stop:1 rgba(39, 39,39, 255));
+ border: none;
+border-radius:5px;
+color: rgb(255, 255, 255);
+font: 75 12pt "黑体";
+ }
+#XVideoUIClass
+{
+	background-color: rgb(53, 53, 53);
+}
+#closeButton
+{
+font: 75 11pt "等线";
+color: rgb(255, 255, 255);
+background-color: rgb(53, 53, 53);
+}
+
+
+QLabel
+{
+	color: rgb(255, 255, 255);
+	font: 75 12pt "黑体";
+}
+
+#playButton{background-color: rgba(255, 255, 255, 0);}
+
+#playButton:!hover{ image: url(:/XVideoUI/Resources/PlayN.png);}
+#playButton:hover{ image: url(:/XVideoUI/Resources/PlayH.png);}
+
+#playButton:pressed{ image: url(:/XVideoUI/Resources/PlayP.png);}
+
+#pauseButton{background-color: rgba(255, 255, 255, 0);}
+
+#pauseButton:!hover{ image: url(:/XVideoUI/Resources/PauseN.png);}
+#pauseButton:hover{ image: url(:/XVideoUI/Resources/PauseH.png);}
+
+#pauseButton:pressed{ image: url(:/XVideoUI/Resources/PauseP.png);}
+
+
+
